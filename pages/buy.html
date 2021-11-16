@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <title>Connected</title>
+</head>
+
+<body>
+    <div class="phone">
+        <div class="screen">
+            <div class="box_start">
+                <section class="page">
+                    <a href="menu.html"><img class="logo_link" src="../assets/images/logo.svg" alt="moon_logo"
+                            width="60" height="60"></a>
+                    <h1 class="text heading">Buy a necklace</h1>
+                    <article class="center">
+                        <h2 class="hidden">buy</h2>
+                        <p class="copy">To know exactly which necklace is perfect <br> for you, you have to take this
+                            quiz
+                            first.</p>
+                        <div class="hands">
+                            <img class="y_hand" src="../assets/images/yellow_hand.svg" alt="yellow_hand" width="207"
+                                height="148">
+                            <img class="g_hand" src="../assets/images/green_hand.svg" alt="green_hand" width="191"
+                                height="157">
+                            <img class="p_hand" src="../assets/images/purple_hand.svg" alt="purple_hand" width="207"
+                                height="171">
+                        </div>
+
+                        <form class="form" action="buy.html" method="POST">
+                            <p class="copy margin-btm">What kind of soulmate are you looking for?</p>
+                            <div>
+                                <div>
+                                    <input type="radio" id="five" name="soulmate" value="five">
+                                    <label class="copy" for="five">Five star soulmate</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="four" name="soulmate" value="four">
+                                    <label class="copy" for="four">Four star soulmate</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="three" name="soulmate" value="three">
+                                    <label class="copy" for="three">Three star soulmate</label>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more extravert or introvert?</p>
+                                <div class="copy slider-txt">
+                                    <p>extravert</p>
+                                    <p>introvert</p>
+                                </div>
+                                <label for="extravert" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="extravert">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more curious or cautious?</p>
+                                <div class="copy slider-txt">
+                                    <p>curious</p>
+                                    <p>cautious</p>
+                                </div>
+                                <label for="curious" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="curious">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more organised or careless?</p>
+                                <div class="copy slider-txt">
+                                    <p>organised</p>
+                                    <p>careless</p>
+                                </div>
+                                <label for="organised" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="organised">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more friendly or challenging?</p>
+                                <div class="copy slider-txt">
+                                    <p>friendly</p>
+                                    <p>challenging</p>
+                                </div>
+                                <label for="friendly" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="friendly">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more nervous or confident?</p>
+                                <div class="copy slider-txt">
+                                    <p>nervous</p>
+                                    <p>confident</p>
+                                </div>
+                                <label for="nervous" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="nervous">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more aimless or ambitious?</p>
+                                <div class="copy slider-txt">
+                                    <p>aimless</p>
+                                    <p>ambitious</p>
+                                </div>
+                                <label for="aimless" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="aimless">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more active or inactive?</p>
+                                <div class="copy slider-txt">
+                                    <p>active</p>
+                                    <p>inactive</p>
+                                </div>
+                                <label for="active" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="active">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more cold or warm?</p>
+                                <div class="copy slider-txt">
+                                    <p>cold</p>
+                                    <p>warm</p>
+                                </div>
+                                <label for="cold" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="cold">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more late or punctual?</p>
+                                <div class="copy slider-txt">
+                                    <p>late</p>
+                                    <p>punctual</p>
+                                </div>
+                                <label for="late" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="late">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more realistic or romantic?</p>
+                                <div class="copy slider-txt">
+                                    <p>realistic</p>
+                                    <p>romantic</p>
+                                </div>
+                                <label for="realistic" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="realistic">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more vengeful or forgiving?</p>
+                                <div class="copy slider-txt">
+                                    <p>vengeful</p>
+                                    <p>forgiving</p>
+                                </div>
+                                <label for="vengeful" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="vengeful">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you more quiet or talkative?</p>
+                                <div class="copy slider-txt">
+                                    <p>quiet</p>
+                                    <p>talkative</p>
+                                </div>
+                                <label for="quiet" class="box-slider">
+                                    <input class="slider" type="range" min="0" max="10" value="5" id="quiet">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you willing to travel the world to find <br> your
+                                    soulmate?
+                                </p>
+                                <div class="copy slider-txt">
+                                    <p>no</p>
+                                    <p>yes</p>
+                                </div>
+                                <label for="travel" class="box-slider">
+                                    <input class="slider" type="range" min="1" max="2" value="1" id="travel">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you willing to have a long distance <br> relationship
+                                    with
+                                    your soulmate?</p>
+                                <div class="copy slider-txt">
+                                    <p>no</p>
+                                    <p>yes</p>
+                                </div>
+                                <label for="distance" class="box-slider">
+                                    <input class="slider" type="range" min="1" max="2" value="1" id="distance">
+                                </label>
+                            </div>
+                            <div>
+                                <p class="copy margin-set">Are you willing to learn or speak a different <br> language
+                                    with
+                                    your soulmate?</p>
+                                <div class="copy slider-txt">
+                                    <p>no</p>
+                                    <p>yes</p>
+                                </div>
+                                <label for="language" class="box-slider">
+                                    <input class="slider" type="range" min="1" max="2" value="1" id="language">
+                                </label>
+                            </div>
+                            <div>
+                                <label class="copy form-txt" for="name">Name <br>
+                                    <input class="form-border" type="text" id="name" name="name">
+                                </label>
+                            </div>
+                            <div class="age">
+                                <label class="copy form-txt" for="y-age">Your age <br>
+                                    <input class="form-border form-border-small" type="number" id="y-age" name="y-age">
+                                </label>
+                                <div class="box-age">
+                                    <label class="copy form-txt" for="others-age-min">Age other<br>
+                                        <input class="form-border form-border-small" type="number" id="others-age-min"
+                                            name="others-age-min">
+                                    </label>
+                                    <p class="copy margin-top">-</p>
+                                    <label class="copy form-txt" for="others-age-max">Age other<br>
+                                        <input class="form-border form-border-small" type="number" id="others-age-max"
+                                            name="others-age-max">
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="box-gender">
+                                <label class="copy form-txt" for="gender">Your gender<br>
+                                    <select class="form-border form-border-half" name="gender" id="gender">
+                                        <option value="male">male</option>
+                                        <option value="female">female</option>
+                                        <option value="transgender">transgender</option>
+                                        <option value="gender_neutral">gender neutral</option>
+                                        <option value="non-binary">non-binary</option>
+                                        <option value="agender">agender</option>
+                                        <option value="pangender">pangender</option>
+                                        <option value="genderqueer">genderqueer</option>
+                                        <option value="two-spirit">two-spirit</option>
+                                        <option value="third_gender">third gender</option>
+                                        <option value="doesnt_matter">doesn't matter</option>
+                                    </select>
+                                </label>
+
+                                <label class="copy form-txt" for="gender-o">Gender other<br>
+                                    <select class="form-border form-border-half" name="gender-o" id="gender-o">
+                                        <option value="male">male</option>
+                                        <option value="female">female</option>
+                                        <option value="transgender">transgender</option>
+                                        <option value="gender_neutral">gender neutral</option>
+                                        <option value="non-binary">non-binary</option>
+                                        <option value="agender">agender</option>
+                                        <option value="pangender">pangender</option>
+                                        <option value="genderqueer">genderqueer</option>
+                                        <option value="two-spirit">two-spirit</option>
+                                        <option value="third_gender">third gender</option>
+                                        <option value="doesnt_matter">doesn't matter</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="box-gender">
+                                <label class="copy form-txt" for="adress">Adress <br>
+                                    <input class="form-border form-border-tree" type="text" id="adress" name="adress">
+                                </label>
+                                <label class="copy form-txt" for="nr">N°<br>
+                                    <input class="form-border form-border-small" type="number" id="nr" name="nr">
+                                </label>
+                            </div>
+                            <div class="box-gender">
+                                <label class="copy form-txt" for="zip">Zip code<br>
+                                    <input class="form-border form-border-small" type="number" id="zip" name="zip">
+                                </label>
+                                <label class="copy form-txt" for="city">City <br>
+                                    <input class="form-border form-border-tree" type="text" id="city" name="city">
+                                </label>
+                            </div>
+                            <div>
+                                <label class="copy form-txt" for="country">Country <br>
+                                    <input class="form-border" type="text" id="country" name="country">
+                                </label>
+                            </div>
+                            <a class="text footer_btn margin-left" href="restult.html">See results</a>
+                        </form>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

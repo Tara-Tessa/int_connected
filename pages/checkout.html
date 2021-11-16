@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <title>Connected</title>
+</head>
+
+<body>
+    <div class="phone">
+        <div class="screen">
+            <div class="box_start">
+                <section class="page">
+                    <a href="menu.html"><img class="logo_link" src="../assets/images/logo.svg" alt="moon_logo"
+                            width="60" height="60"></a>
+                    <h1 class="text heading">Buy a necklace</h1>
+                    <p class="copy">Personal information</p>
+                    <div class="line"></div>
+                    <form class="form form-center" action="buy.html" method="POST">
+                        <div>
+                            <label class="copy form-txt" for="name">Name <br>
+                                <input class="form-border" type="text" id="name" name="name" placeholder="John Doe">
+                            </label>
+                        </div>
+                        <div class="box-gender">
+                            <label class="copy form-txt" for="adress">Adress <br>
+                                <input class="form-border form-border-tree" type="text" id="adress" name="adress"
+                                    placeholder="Maple Lane">
+                            </label>
+                            <label class="copy form-txt" for="nr">N°<br>
+                                <input class="form-border form-border-small" type="number" id="nr" name="nr"
+                                    placeholder="11">
+                            </label>
+                        </div>
+                        <div class="box-gender">
+                            <label class="copy form-txt" for="zip">Zip code<br>
+                                <input class="form-border form-border-small" type="number" id="zip" name="zip"
+                                    placeholder="11215">
+                            </label>
+                            <label class="copy form-txt" for="city">City <br>
+                                <input class="form-border form-border-tree" type="text" id="city" name="city"
+                                    placeholder="Brooklyn, New York">
+                            </label>
+                        </div>
+                        <div>
+                            <label class="copy form-txt" for="country">Country <br>
+                                <input class="form-border" type="text" id="country" name="country"
+                                    placeholder="United States">
+                            </label>
+                        </div>
+                        <a class="text margin-tp margin-left" href="#">Ship to different address</a>
+                    </form>
+                    <p class="copy">Payment method</p>
+                    <div class="line"></div>
+                    <form class="form form-start" action="buy.html" method="POST">
+                        <div>
+                            <input type="radio" id="check" name="payment" value="check">
+                            <label class="copy" for="check">Pay by check</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="bank" name="payment" value="bank">
+                            <label class="copy" for="bank">Pay by bank wire</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="cash" name="payment" value="cash">
+                            <label class="copy" for="cash">Pay by cash on delivery</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="card" name="payment" value="card">
+                            <label class="copy" for="card">Pay by card</label>
+                        </div>
+                        <div>
+                            <label class="copy form-txt" for="cardholder_name">Cardholder's name <br>
+                                <input class="form-border" type="text" id="cardholder_name" name="cardholder_name">
+                            </label>
+                        </div>
+                        <div>
+                            <label class="copy form-txt" for="card_number">Card number<br>
+                                <input class="form-border" type="text" id="card_number" name="card_number">
+                            </label>
+                        </div>
+                        <div class="box-gender">
+                            <label class="copy form-txt" for="date">Expiry date<br>
+                                <input class="form-border form-border-half" type="date" name="date" id="date">
+                            </label>
+                            <label class="copy form-txt" for="cvc">CVC/CVV<br>
+                                <input class="form-border form-border-half" id="cvc" type="text">
+                            </label>
+                        </div>
+                        <a class="text footer_btn margin-left" href="success.html">Place Order</a>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
